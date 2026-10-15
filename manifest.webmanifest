@@ -1,0 +1,55 @@
+{
+  "name": "Basil · Pasta & Pizza",
+  "short_name": "Basil",
+  "description": "Basil — on Italy time. The menu, your bag, table bookings, the pizza stamp card and Basil Club — Valiasr, Tabriz.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#CCF4FC",
+  "theme_color": "#F3FBFC",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "food",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Menu",
+      "url": "./#/menu",
+      "icons": [
+        {
+          "src": "assets/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Book a table",
+      "url": "./#/reserve"
+    },
+    {
+      "name": "Stamp card",
+      "url": "./#/stamps"
+    }
+  ]
+}
